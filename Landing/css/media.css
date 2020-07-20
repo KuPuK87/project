@@ -1,0 +1,426 @@
+@media screen and (max-width: 1650px) {
+
+    .section_about {
+        background-size: auto 70%;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+
+    .reviews_text {
+        width: 980px;
+    }
+}
+
+
+@media screen and (max-width: 1250px) {
+
+    .nav li a {
+        padding: 20px 9px;
+    }
+
+    .section_about {
+        background-size: auto 50%;
+    }
+
+    .reviews_text {
+        width: 780px;
+    }
+
+    .portfolio_block-filter {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+
+    .header_logo a span:nth-child(2),
+    .header_logo a span:last-child {
+        display: none;
+    }
+
+    .header_logo a span:first-child {
+        opacity: 0.5;
+    }
+
+    .menu_button {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        right: 10px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .menu_button>span,
+    .menu_button>span::before,
+    .menu_button>span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        background-color: #616161;
+    }
+
+    .menu_button>span::before {
+        content: '';
+        top: -12px;
+    }
+
+    .menu_button>span::after {
+        content: '';
+        top: 12px;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        visibility: hidden;
+        top: -15px;
+        right: 40px;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        background-color: #252e30;
+        border-radius: 5px;
+    }
+
+    .nav li {
+        display: block;
+        padding: 12px 24px;
+        color: #333;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .nav li:hover {
+        background-color: #b8b8b8;
+    }
+
+    #menu_toggle:checked~.menu_button>span {
+        transform: rotate(45deg);
+        transition: all 0.3s;
+    }
+
+    #menu_toggle:checked~.menu_button>span::before {
+        top: 0;
+        transform: rotate(0);
+        transition: all 0.3s;
+    }
+
+    #menu_toggle:checked~.menu_button>span::after {
+        top: 0;
+        transform: rotate(90deg);
+        transition: all 0.3s;
+    }
+
+    #menu_toggle:checked~.nav {
+        visibility: visible;
+        transition: all 0.3s;
+    }
+
+    h1 {
+        line-height: 60px;
+    }
+
+    .section_about {
+        background-size: auto 40%;
+    }
+
+    .reviews_text {
+        width: 580px;
+    }
+
+    .portfolio_block-filter {
+        text-align: center;
+    }
+
+    .portfolio_block-filter ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px auto;
+        justify-content: center;
+    }
+
+    .portfolio_block-filter ul li {
+        padding: 0 5px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .section_about {
+        background-size: auto 35%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .section_about {
+        background-size: auto 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        margin-top: 20px;
+    }
+
+    section {
+        padding: 50px 0;
+    }
+
+    .header {
+        height: 500px;
+        background-attachment: unset;
+    }
+
+    .goals {
+        flex-direction: column;
+    }
+
+    .goals_item {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .section_about {
+        background-image: none;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .about_block {
+        flex-direction: column;
+    }
+
+    .about_block-item {
+        box-sizing: border-box;
+        margin-top: 50px;
+        width: 100%;
+        background-position: center left;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .skills_block,
+    .skills_block:first-child {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .skills_block a.button {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .skills_block h2 {
+        margin: 0 auto;
+    }
+
+    .education,
+    .work {
+        flex-direction: column;
+    }
+
+    .education_block,
+    .work_block {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .education_block:first-child,
+    .work_block:first-child,
+    .contacts_block:first-child {
+        padding: 0;
+    }
+
+    .reviews_text {
+        width: 350px;
+    }
+
+    .portfolio_block {
+        padding-top: 0;
+    }
+
+    .portfolio_block-item:first-child {
+        width: 100%;
+    }
+
+    .portfolio_block-item {
+        width: 48%;
+    }
+
+    .portfolio_block-item:not(:first-child) {
+        margin-top: 10px;
+    }
+
+    .contacts {
+        flex-direction: column;
+    }
+
+    .contacts_block {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    body {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .header {
+        height: 300px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .nav {
+        width: 100%;
+        opacity: 0.9;
+    }
+
+    .button,
+    .skills_block a.button,
+    .resume a.button,
+    .form_button {
+        padding: 10px 20px;
+    }
+
+    .goals_item {
+        padding-bottom: 20px;
+    }
+
+    .about_block-item,
+    .about_block-item:nth-child(4),
+    .about_block-item:nth-child(3) {
+        margin-top: 20px;
+    }
+
+    .work {
+        padding-top: 40px;
+    }
+
+    .education_block-item,
+    .work_block-item {
+        margin-bottom: 30px;
+    }
+
+    .portfolio_block-item {
+        width: 100%;
+    }
+
+    .block_item-text {
+        margin-top: 10px;
+    }
+
+    .reviews_text {
+        width: 280px;
+    }
+
+    .contacts_form textarea,
+    input[type="text"],
+    input[type="email"] {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .form_button {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+@media print {
+
+    .header_title a {
+        display: none;
+    }
+
+    .header {
+        height: 200px;
+        background-image: none;
+    }
+
+    h1 {
+        line-height: 80px;
+    }
+
+    header,
+    section {
+        padding: 30px;
+        border-bottom: 1px #000000 solid;
+    }
+
+    .section_navigation,
+    .resume,
+    .reviews,
+    .skills_block a.button,
+    .portfolio_block-item:first-child,
+    .contacts_block:last-child,
+    footer {
+        display: none;
+    }
+
+    .about,
+    .skills_block,
+    .education_block,
+    .work_block,
+    .contacts_block {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .education,
+    .work,
+    .skills {
+        flex-direction: column;
+    }
+
+    .skills_block:first-child,
+    .education_block:first-child,
+    .work_block:first-child,
+    .contacts_block:first-child {
+        padding: 0;
+    }
+
+    section.section_reviews {
+        border-bottom: none;
+    }
+
+}

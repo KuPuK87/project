@@ -1,0 +1,235 @@
+@media screen and (max-width: 1600px) {
+
+    .header_block {
+        margin-top: 50px;
+    }
+
+    .about_item-img img {
+        width: 90%;
+    }
+
+    .about_item-img {
+        top: calc(50% - 40%);
+        right: 10px;
+    }
+
+    .contact_item-img img {
+        width: 80%;
+    }
+
+    .contact_item-img {
+        top: calc(50% - 43%);
+        left: 50px;
+    }
+
+    .articles {
+        padding-top: 120px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    h1 {
+        font-size: 130px;
+        margin-top: 30px;
+    }
+
+    .header_block {
+        padding: 30px 80px;
+    }
+
+    .header_text {
+        line-height: 40px;
+    }
+
+    .about_block {
+        flex-direction: column;
+    }
+
+    .about_block-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .about_item-img {
+        position: relative;
+        width: 100%;
+        left: 0px;
+        top: 30px;
+    }
+
+    .about_item-img img {
+        width: 100%;
+    }
+
+    .arcticles_block-section {
+        justify-content: space-around;
+    }
+
+    .arcticles_block-item {
+        width: 45%;
+    }
+
+    .arcticles_block-item:nth-child(2) {
+        margin-top: 0;
+    }
+
+    .arcticles_block-item:nth-child(3) {
+        margin-top: 50px;
+    }
+
+    .contact_block {
+        flex-direction: column;
+    }
+
+    .contact_block-item {
+        width: 100%;
+    }
+
+    .contact_item-img {
+        position: relative;
+        left: 0;
+        margin-bottom: 30px;
+    }
+
+    .contact_item-img img {
+        width: 100%;
+    }
+
+    section,
+    footer {
+        padding: 60px 0 !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .photo1 {
+        grid-area: 1 / 2 / span 4 / span 4;
+    }
+
+    .photo2 {
+        grid-area: 3 /10 / span 5 / span 4;
+    }
+
+    .photo3 {
+        grid-area: 1 / 6 / span 3 / span 4;
+    }
+
+    .photo4 {
+        grid-area: 1 / 10 / span 2 / span 4;
+    }
+
+    .photo5 {
+        grid-area: 8 / 2 / span 4 / span 12;
+    }
+
+    .photo6 {
+        grid-area: 4 / 6 / span 4 / span 4;
+    }
+
+    .photo7 {
+        grid-area: 5 / 2 / span 3 / span 4;
+    }
+
+    .photo:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .header {
+        height: auto;
+    }
+
+    .header_block {
+        display: block;
+        border: none;
+        padding: 100px 0;
+        position: relative;
+    }
+
+    .header_title-text {
+        line-height: 40px;
+    }
+
+    .header_title-text::before {
+        content: none;
+    }
+
+    h1 {
+        font-size: 90px;
+    }
+
+    .background_top2 {
+        display: none;
+    }
+
+    .about_block,
+    .contact_block {
+        padding: 20px;
+    }
+
+    .arcticles_block-item {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .gallery_block-section {
+        grid: repeat(7, 200px) / repeat(1, 100%);
+        height: auto;
+    }
+
+    .photo1 {
+        grid-area: 1 / 1;
+    }
+
+    .photo2 {
+        grid-area: 2 /1;
+    }
+
+    .photo3 {
+        grid-area: 3 /1;
+    }
+
+    .photo4 {
+        grid-area: 4 /1;
+    }
+
+    .photo5 {
+        grid-area: 5 /1;
+    }
+
+    .photo6 {
+        grid-area: 6 /1;
+    }
+
+    .photo7 {
+        grid-area: 7 /1;
+    }
+
+    .gallery_block .button {
+        margin-top: 40px;
+    }
+
+    .contact_info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact_info input {
+        width: 100%;
+    }
+
+    section,
+    footer {
+        padding: 30px 0 !important;
+    }
+
+    .footer_block {
+        flex-wrap: wrap;
+    }
+    .social {
+        margin-bottom: 20px;
+    }
+}
